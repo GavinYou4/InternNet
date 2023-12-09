@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860070A92B252E9E0079A698 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860070A82B252E9D0079A698 /* Trapezoid.swift */; };
+		860CFDC72B22C92100CE1298 /* networthappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CFDC62B22C92100CE1298 /* networthappApp.swift */; };
+		860CFDC92B22C92100CE1298 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CFDC82B22C92100CE1298 /* ContentView.swift */; };
+		860CFDCB2B22C92200CE1298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860CFDCA2B22C92200CE1298 /* Assets.xcassets */; };
+		860CFDCE2B22C92300CE1298 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860CFDCD2B22C92300CE1298 /* Preview Assets.xcassets */; };
+		860CFDD82B22C92300CE1298 /* networthappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CFDD72B22C92300CE1298 /* networthappTests.swift */; };
+		860CFDE22B22C92300CE1298 /* networthappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CFDE12B22C92300CE1298 /* networthappUITests.swift */; };
+		860CFDE42B22C92300CE1298 /* networthappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CFDE32B22C92300CE1298 /* networthappUITestsLaunchTests.swift */; };
+		860CFDF12B22C95900CE1298 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CFDF02B22C95900CE1298 /* Account.swift */; };
+		860CFDF42B242C6400CE1298 /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CFDF32B242C6400CE1298 /* AccountDetailView.swift */; };
+		86AA956A2B24DEA10077E383 /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA95692B24DEA10077E383 /* Employer.swift */; };
+		86AA956D2B24EF090077E383 /* EmployerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA956C2B24EF090077E383 /* EmployerDetailView.swift */; };
+		86AA95712B24F0020077E383 /* AddStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA95702B24F0020077E383 /* AddStudentView.swift */; };
+		86AA95732B24F0090077E383 /* AddEmployerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA95722B24F0090077E383 /* AddEmployerView.swift */; };
+		86AA95762B250AA00077E383 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA95752B250AA00077E383 /* ColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		860CFDD42B22C92300CE1298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860CFDBB2B22C92100CE1298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860CFDC22B22C92100CE1298;
+			remoteInfo = networthapp;
+		};
+		860CFDDE2B22C92300CE1298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860CFDBB2B22C92100CE1298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860CFDC22B22C92100CE1298;
+			remoteInfo = networthapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		860070A82B252E9D0079A698 /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
+		860CFDC32B22C92100CE1298 /* networthapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = networthapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		860CFDC62B22C92100CE1298 /* networthappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappApp.swift; sourceTree = "<group>"; };
+		860CFDC82B22C92100CE1298 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		860CFDCA2B22C92200CE1298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		860CFDCD2B22C92300CE1298 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		860CFDD32B22C92300CE1298 /* networthappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = networthappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		860CFDD72B22C92300CE1298 /* networthappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappTests.swift; sourceTree = "<group>"; };
+		860CFDDD2B22C92300CE1298 /* networthappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = networthappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		860CFDE12B22C92300CE1298 /* networthappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappUITests.swift; sourceTree = "<group>"; };
+		860CFDE32B22C92300CE1298 /* networthappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		860CFDF02B22C95900CE1298 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		860CFDF22B2408C300CE1298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		860CFDF32B242C6400CE1298 /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		86AA95692B24DEA10077E383 /* Employer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employer.swift; sourceTree = "<group>"; };
+		86AA956C2B24EF090077E383 /* EmployerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerDetailView.swift; sourceTree = "<group>"; };
+		86AA95702B24F0020077E383 /* AddStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentView.swift; sourceTree = "<group>"; };
+		86AA95722B24F0090077E383 /* AddEmployerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployerView.swift; sourceTree = "<group>"; };
+		86AA95752B250AA00077E383 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		860CFDC02B22C92100CE1298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860CFDD02B22C92300CE1298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860CFDDA2B22C92300CE1298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860CFDBA2B22C92100CE1298 = {
+			isa = PBXGroup;
+			children = (
+				860CFDC52B22C92100CE1298 /* networthapp */,
+				860CFDD62B22C92300CE1298 /* networthappTests */,
+				860CFDE02B22C92300CE1298 /* networthappUITests */,
+				860CFDC42B22C92100CE1298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		860CFDC42B22C92100CE1298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				860CFDC32B22C92100CE1298 /* networthapp.app */,
+				860CFDD32B22C92300CE1298 /* networthappTests.xctest */,
+				860CFDDD2B22C92300CE1298 /* networthappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		860CFDC52B22C92100CE1298 /* networthapp */ = {
+			isa = PBXGroup;
+			children = (
+				86AA95742B250A970077E383 /* Extensions */,
+				86AA956F2B24EF9E0077E383 /* AddButtons */,
+				86AA956E2B24EF8D0077E383 /* Models */,
+				86AA956B2B24EEF50077E383 /* DetailViews */,
+				860CFDF22B2408C300CE1298 /* Info.plist */,
+				860CFDC62B22C92100CE1298 /* networthappApp.swift */,
+				860CFDC82B22C92100CE1298 /* ContentView.swift */,
+				860CFDCA2B22C92200CE1298 /* Assets.xcassets */,
+				860CFDCC2B22C92300CE1298 /* Preview Content */,
+			);
+			path = networthapp;
+			sourceTree = "<group>";
+		};
+		860CFDCC2B22C92300CE1298 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				860CFDCD2B22C92300CE1298 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		860CFDD62B22C92300CE1298 /* networthappTests */ = {
+			isa = PBXGroup;
+			children = (
+				860CFDD72B22C92300CE1298 /* networthappTests.swift */,
+			);
+			path = networthappTests;
+			sourceTree = "<group>";
+		};
+		860CFDE02B22C92300CE1298 /* networthappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				860CFDE12B22C92300CE1298 /* networthappUITests.swift */,
+				860CFDE32B22C92300CE1298 /* networthappUITestsLaunchTests.swift */,
+			);
+			path = networthappUITests;
+			sourceTree = "<group>";
+		};
+		86AA956B2B24EEF50077E383 /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				860CFDF32B242C6400CE1298 /* AccountDetailView.swift */,
+				86AA956C2B24EF090077E383 /* EmployerDetailView.swift */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		86AA956E2B24EF8D0077E383 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86AA95692B24DEA10077E383 /* Employer.swift */,
+				860CFDF02B22C95900CE1298 /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86AA956F2B24EF9E0077E383 /* AddButtons */ = {
+			isa = PBXGroup;
+			children = (
+				86AA95702B24F0020077E383 /* AddStudentView.swift */,
+				86AA95722B24F0090077E383 /* AddEmployerView.swift */,
+			);
+			path = AddButtons;
+			sourceTree = "<group>";
+		};
+		86AA95742B250A970077E383 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				86AA95752B250AA00077E383 /* ColorExtension.swift */,
+				860070A82B252E9D0079A698 /* Trapezoid.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		860CFDC22B22C92100CE1298 /* networthapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860CFDE72B22C92300CE1298 /* Build configuration list for PBXNativeTarget "networthapp" */;
+			buildPhases = (
+				860CFDBF2B22C92100CE1298 /* Sources */,
+				860CFDC02B22C92100CE1298 /* Frameworks */,
+				860CFDC12B22C92100CE1298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = networthapp;
+			productName = networthapp;
+			productReference = 860CFDC32B22C92100CE1298 /* networthapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		860CFDD22B22C92300CE1298 /* networthappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860CFDEA2B22C92300CE1298 /* Build configuration list for PBXNativeTarget "networthappTests" */;
+			buildPhases = (
+				860CFDCF2B22C92300CE1298 /* Sources */,
+				860CFDD02B22C92300CE1298 /* Frameworks */,
+				860CFDD12B22C92300CE1298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860CFDD52B22C92300CE1298 /* PBXTargetDependency */,
+			);
+			name = networthappTests;
+			productName = networthappTests;
+			productReference = 860CFDD32B22C92300CE1298 /* networthappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		860CFDDC2B22C92300CE1298 /* networthappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860CFDED2B22C92300CE1298 /* Build configuration list for PBXNativeTarget "networthappUITests" */;
+			buildPhases = (
+				860CFDD92B22C92300CE1298 /* Sources */,
+				860CFDDA2B22C92300CE1298 /* Frameworks */,
+				860CFDDB2B22C92300CE1298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860CFDDF2B22C92300CE1298 /* PBXTargetDependency */,
+			);
+			name = networthappUITests;
+			productName = networthappUITests;
+			productReference = 860CFDDD2B22C92300CE1298 /* networthappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		860CFDBB2B22C92100CE1298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					860CFDC22B22C92100CE1298 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					860CFDD22B22C92300CE1298 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 860CFDC22B22C92100CE1298;
+					};
+					860CFDDC2B22C92300CE1298 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 860CFDC22B22C92100CE1298;
+					};
+				};
+			};
+			buildConfigurationList = 860CFDBE2B22C92100CE1298 /* Build configuration list for PBXProject "networthapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 860CFDBA2B22C92100CE1298;
+			productRefGroup = 860CFDC42B22C92100CE1298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				860CFDC22B22C92100CE1298 /* networthapp */,
+				860CFDD22B22C92300CE1298 /* networthappTests */,
+				860CFDDC2B22C92300CE1298 /* networthappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		860CFDC12B22C92100CE1298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860CFDCE2B22C92300CE1298 /* Preview Assets.xcassets in Resources */,
+				860CFDCB2B22C92200CE1298 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860CFDD12B22C92300CE1298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860CFDDB2B22C92300CE1298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		860CFDBF2B22C92100CE1298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860070A92B252E9E0079A698 /* Trapezoid.swift in Sources */,
+				860CFDC92B22C92100CE1298 /* ContentView.swift in Sources */,
+				86AA95732B24F0090077E383 /* AddEmployerView.swift in Sources */,
+				860CFDF42B242C6400CE1298 /* AccountDetailView.swift in Sources */,
+				86AA95762B250AA00077E383 /* ColorExtension.swift in Sources */,
+				86AA95712B24F0020077E383 /* AddStudentView.swift in Sources */,
+				86AA956D2B24EF090077E383 /* EmployerDetailView.swift in Sources */,
+				860CFDC72B22C92100CE1298 /* networthappApp.swift in Sources */,
+				86AA956A2B24DEA10077E383 /* Employer.swift in Sources */,
+				860CFDF12B22C95900CE1298 /* Account.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860CFDCF2B22C92300CE1298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860CFDD82B22C92300CE1298 /* networthappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860CFDD92B22C92300CE1298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860CFDE22B22C92300CE1298 /* networthappUITests.swift in Sources */,
+				860CFDE42B22C92300CE1298 /* networthappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		860CFDD52B22C92300CE1298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860CFDC22B22C92100CE1298 /* networthapp */;
+			targetProxy = 860CFDD42B22C92300CE1298 /* PBXContainerItemProxy */;
+		};
+		860CFDDF2B22C92300CE1298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860CFDC22B22C92100CE1298 /* networthapp */;
+			targetProxy = 860CFDDE2B22C92300CE1298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		860CFDE52B22C92300CE1298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		860CFDE62B22C92300CE1298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860CFDE82B22C92300CE1298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"networthapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 735462DPAJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = networthapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavidon.networthapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		860CFDE92B22C92300CE1298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"networthapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 735462DPAJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = networthapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavidon.networthapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		860CFDEB2B22C92300CE1298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 735462DPAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavidon.networthappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/networthapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/networthapp";
+			};
+			name = Debug;
+		};
+		860CFDEC2B22C92300CE1298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 735462DPAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavidon.networthappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/networthapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/networthapp";
+			};
+			name = Release;
+		};
+		860CFDEE2B22C92300CE1298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 735462DPAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavidon.networthappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = networthapp;
+			};
+			name = Debug;
+		};
+		860CFDEF2B22C92300CE1298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 735462DPAJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavidon.networthappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = networthapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		860CFDBE2B22C92100CE1298 /* Build configuration list for PBXProject "networthapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860CFDE52B22C92300CE1298 /* Debug */,
+				860CFDE62B22C92300CE1298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860CFDE72B22C92300CE1298 /* Build configuration list for PBXNativeTarget "networthapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860CFDE82B22C92300CE1298 /* Debug */,
+				860CFDE92B22C92300CE1298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860CFDEA2B22C92300CE1298 /* Build configuration list for PBXNativeTarget "networthappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860CFDEB2B22C92300CE1298 /* Debug */,
+				860CFDEC2B22C92300CE1298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860CFDED2B22C92300CE1298 /* Build configuration list for PBXNativeTarget "networthappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860CFDEE2B22C92300CE1298 /* Debug */,
+				860CFDEF2B22C92300CE1298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 860CFDBB2B22C92100CE1298 /* Project object */;
+}
